@@ -21,11 +21,11 @@ open class BinaryTree(root: Node){ // open означает что этот кл
     }
 
     public fun leftChild(i: Int): Node{
-        return nodes[(i+2)*2-1]
+        return nodes[(i+1)*2-1]
     }
 
     public fun rightChild(i: Int): Node{
-        return nodes[(i+2)*2]
+        return nodes[(i+1)*2]
     }
 
     public fun add(value: Long){
