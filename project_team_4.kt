@@ -13,7 +13,7 @@ class Node(value: Long, exist: Boolean){
     }
 }
 
-class BinaryTree(root: Node){
+open class BinaryTree(root: Node){ // open означает что этот класс можно наследовать
     private var nodes: Array<Node>
 
     init {
