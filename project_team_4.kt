@@ -1,4 +1,4 @@
-class Node(value: Long, exist: Boolean){
+open class Node(value: Long, exist: Boolean){
     public var value: Long
     public var exist: Boolean
 
